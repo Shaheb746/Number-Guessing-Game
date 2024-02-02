@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #F28383 10%, #9D6CD2 30%, #481EDC 90%);
+    display: grid;
+    place-content: center;
+    margin: auto;
+    height: 100%;
+}
+
+.wrapper {
+    padding: 30px 0px;
+    border-radius: 9px;
+    margin-top: 30px;
+    background: linear-gradient(to right, #f2aaaa59 10%, #b293d3 30%, #7f65de 90%);
+    width: 40vw;
+}
+
+h1 {
+    color: #fff;
+    /* margin-top: 60px; */
+    font-size: 4vw;
+    text-align: center;
+}
+
+p {
+    margin: 15px 0px;
+    color: #fff;
+    font-size: 1.6vw;
+    text-align: center;
+}
+
+h2 {
+    color: #0d17f0;
+    font-size: 1.9vw;
+}
+
+label {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 4.5vw;
+    display: block;
+    text-align: center;
+}
+
+.inpt {
+    text-align: center;
+}
+
+.guessField {
+    text-align: center;
+    height: 45px;
+    width: 25vw;
+    font-size: 32px;
+    border-radius: 6px;
+    border: 2px solid black;
+    padding: 3px 3px;
+    margin: 0px 0px 20px 0px;
+}
+
+.guessSubmit {
+    font-size: 1.5vw;
+    border-radius: 6px;
+    border: none;
+    text-transform: capitalize;
+    padding: 0.9vw 2vw;
+    background: #0bf5c2;
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    .wrapper {
+        width: 76vw;
+
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    p {
+        margin: 8px 0px;
+        font-size: 3vw;
+    }
+
+    label {
+        margin-top: 15px;
+        font-size: 9vw;
+    }
+
+    .guessField {
+        width: 56vw;
+        font-size: 32px;
+        border-radius: 6px;
+        padding: 3px 3px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .guessSubmit {
+        font-size: 6vw;
+        border-radius: 6px;
+        border: none;
+        text-transform: capitalize;
+        padding: 2vw 3vw;
+        background: #0bf5c2;
+        color: #fff;
+    }
+}
