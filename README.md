@@ -1,4 +1,4 @@
-# 🎉Number Guessing Game:video_game:
+# 🎉Number Guessing Game🎮
 
 Welcome to the Number Guessing Game! This interactive web application allows users to play a fun and challenging game of guessing a random number within a specified range.
 
