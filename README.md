@@ -1,12 +1,12 @@
-# :tada: Number Guessing Game:video_game:
+# 🎉Number Guessing Game:video_game:
 
 Welcome to the Number Guessing Game! This interactive web application allows users to play a fun and challenging game of guessing a random number within a specified range.
 
-## :man_technologist:Demo
+## 👨‍💻Demo
 
 You can play the game [here](https://shaheb746.github.io/Number-Guessing-Game/).
 
-## :iPhone: Features
+## 📱Features
 
 - User-friendly interface.
 - Customizable number range for increased difficulty.
